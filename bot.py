@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import  InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytube import YouTube
 from pytube.exceptions import VideoUnavailable
-from pytube import Captions
+from pytube.Caption import Caption
 
 import os 
 
